@@ -22,6 +22,15 @@ void main(List<String> arguments) {
   saludo6(name:'Cleto', mensaje:'Que onda');
   saludo6(mensaje:'Que tal', name: 'Petronila');
 
+  var alumnos= Map();
+  alumnos[1]='Anacleto';
+  alumnos[2]='Telesforo';
+  alumnos[3]='Cupertino';
+  alumnos[4]='Pantaleon';
+  alumnos[5]='Panfilo';
+  alumnos[6]='Tranquilino';
+
+  alumnos.forEach((key, value) => print('Clave: $key,Valor: $value'));
 
 }
 void dividir(){
